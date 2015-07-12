@@ -1,10 +1,10 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/garrett/.oh-my-zsh
 
-ZSH_THEME="robbyrussell"
-ENABLE_CORRECTION="true"
+ZSH_THEME="gitster"
+ENABLE_CORRECTION="false"
 
-plugins=(git)
+plugins=(git ruby capistrano gem rails rake rbenv)
 
 # User configuration
 
