@@ -14,8 +14,8 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 alias refresh="source ~/.zshrc"
-alias s="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-alias shell="s ~/.zshrc"
+alias s="atom"
+alias shell="atom ~/.zshrc"
 
 #folder shortcuts
 alias dev="cd ~/dev"
