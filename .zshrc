@@ -37,3 +37,6 @@ alias ssh-invprod-batch="ssh deployer@54.209.178.109"
 alias bi="bundle install"
 alias test-migrate='RAILS_ENV=test rake db:migrate'
 alias migrate='rake db:migrate'
+
+#ssh
+alias ssh-setup="ssh-add && ssh-add ~/.ssh/webstreak.pem"
