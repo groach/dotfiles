@@ -1,14 +1,14 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/garrett/.oh-my-zsh
 
-ZSH_THEME="gitster"
+# ZSH_THEME="gitster"
+# ZSH_THEME="hyperzsh"
+ZSH_THEME="robbyrussell"
 ENABLE_CORRECTION="false"
 
-plugins=(git ruby capistrano gem rails rake rbenv)
+plugins=(git ruby capistrano gem rails rake rbenv powerline)
 
 # User configuration
-
-export PATH="/Users/garrett/.rbenv/shims:/usr/local/bin:/Users/garrett/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 export PATH=$PATH:/Applications/geckodriver
 # export PATH=$PATH:/Applications/chromedriver
@@ -19,7 +19,7 @@ export PATH="$PATH:$GOPATH/bin"
 source $ZSH/oh-my-zsh.sh
 
 # aliases
-alias refresh="source ~/.zshrc"
+alias reload="source ~/.zshrc"
 alias s="atom"
 alias shell="atom ~/.zshrc"
 alias mongo-start="mongod --config /usr/local/etc/mongod.conf"
